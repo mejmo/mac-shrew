@@ -74,6 +74,7 @@ in `dmg/MacShrew.dmg`
 
 ## License
 
-This project is licensed under the BSD License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the BSD License - see the [LICENSE.md](LICENSE.md) file for details.
+Icons are downloaded from iconfinder.com which are free for commercial and personal used.
 
 
