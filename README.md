@@ -14,7 +14,7 @@ This will guide you through installation of MacShrew taskbar.
 
 ### Prerequisites
 
-- Homebrew
+- Homebrew if you do not have ShrewSoft VPN Client installed
 - XCode Command line developer tools (ruby)
 - macOS Sierra >10.12.2 (may be working with other systems too, but not tested)
 
