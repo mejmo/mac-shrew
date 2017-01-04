@@ -1,10 +1,10 @@
 # MacShrew Taskbar
 
-MacShrew is a taskbar alternative to Shrew Soft VPN Access manager for macOS systems
+**MacShrew** is a taskbar alternative to _Shrew Soft VPN Access manager_ for macOS systems
 which brings following additional features:
-- MacShrew Taskbar automatically reconnects when IPSec the connection goes down (suspend, wifi disabled,
+- MacShrew Taskbar **automatically reconnects** when IPSec the connection goes down (suspend, wifi disabled,
  etc.)
-- tunnel status in taskbar
+- tunnel **status** in taskbar
 
     ![MacShrew in taskbar](http://178.79.191.30/github_linking/MacShrew1.jpg "MacShrew Taskbar")
 
@@ -14,7 +14,7 @@ This will guide you through installation of MacShrew taskbar.
 
 ### Prerequisites
 
-- Homebrew if you do not have ShrewSoft VPN Client installed
+- **Homebrew** if you do not have ShrewSoft VPN Client installed
 - XCode Command line developer tools (ruby)
 - macOS Sierra >10.12.2 (may be working with other systems too, but not tested)
 
@@ -54,15 +54,17 @@ This tools are used for building:
 On Sierra and El Capitan system you must _**disable**_ System Integrity Protection if you would like to run py2app,
 otherwise py2app will not create any package.
 
+### Disable SIP System Integrity Protection
+
 Follow these instructions:
 
 1. Click the  menu.
-2. Select Restart...
-3. Hold down command-R to boot into the Recovery System.
-4. Click the Utilities menu and select Terminal.
-5. Type csrutil disable and press return.
-6. Close the Terminal app.
-7. Click the  menu and select Restart....
+2. Select **Restart**...
+3. Hold down **command-R** to boot into the **Recovery System**.
+4. Click the **Utilities menu** and select **Terminal**.
+5. Type ```csrutil disable``` and press return.
+6. Close the **Terminal app**.
+7. Click the  menu and select **Restart**....
 
 
 Then simply start `create_dmg.py` script which firstly makes py2app and then prepares dmg file
