@@ -20,13 +20,13 @@ This will guide you through installation of MacShrew taskbar.
 
 ### Installing
 
-1. If you **do not have homebrew installed** run this:
+**1. If you **do not have homebrew installed** run this:**
 
     ```
     ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)” /dev/null
     ```
 
-2. Install ShrewSoft VPN Client:
+**2. Install ShrewSoft VPN Client:**
 
     ```
     brew tap homebrew/boneyard
@@ -36,12 +36,12 @@ This will guide you through installation of MacShrew taskbar.
     brew install shrewsoft-vpn-client
     ```
 
-3. Install MacShrew Taskbar application from:
+**3. Install MacShrew Taskbar application from:**
     ```
     http://github.com/mejmo/mac-shrew/master/raw/dist/dmg/MacShrew.dmg
     ```
 
-4. Run the application
+**4. Run the application**
 
 ## Building
 
