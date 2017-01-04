@@ -1,0 +1,8 @@
+temp
+temp/*
+.idea
+.idea/*
+dist/
+build/
+*.log
+.DS_Store
