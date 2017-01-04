@@ -38,7 +38,7 @@ This will guide you through installation of MacShrew taskbar.
 
 **3. Install MacShrew Taskbar application from:**
     ```
-    http://github.com/mejmo/mac-shrew/master/raw/dist/dmg/MacShrew.dmg
+   https://github.com/mejmo/mac-shrew/raw/master/dmg/MacShrew.dmg
     ```
 
 **4. Run the application**

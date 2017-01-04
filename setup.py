@@ -8,7 +8,12 @@ OPTIONS = {
         'LSUIElement': True,
         'CFBundleIconFile': 'app.icns'
     },
-    'packages': ['rumps']
+    'packages': [
+        'rumps',
+        'pexpect',
+        'argparse',
+        'ConfigParser',
+    ]
 }
 
 OPTIONS2 = {
