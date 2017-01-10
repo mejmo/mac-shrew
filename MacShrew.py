@@ -136,7 +136,8 @@ class ShrewHelperWorker(Thread):
         i = self._child.expect([pexpect.TIMEOUT, TUNNEL_ENABLED, DETACHED])
 
         if i == 0:
-            self.logger.error("Cannot establish tunnel. Retrying")
+            self.logger.error("Ikec timeout. Cannot establish tunnel. Retrying")
+            self.__retry_with_sleep(RETRY_SLEEP_DURATION)
 
         if i == 1:
             self.logger.info("Tunnel established")
@@ -338,7 +339,7 @@ class ShrewHelperApp(rumps.App):
 
     def set_state(self, value):
 
-        if value & APP_STATES.STARTED:
+        if value & APP_STATES.STARTED or value & APP_STATES.CONNECTING:
             self.menu['Disconnect'].set_callback(self.disconnect)
             self.connect_menu_item.set_callback(None)
             self.disable_profiles()
