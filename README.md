@@ -1,16 +1,16 @@
 # MacShrew Taskbar
 
 **MacShrew** is a taskbar alternative to _Shrew Soft VPN Access manager_ for macOS systems
-which brings following additional features:
-- MacShrew Taskbar **automatically reconnects** when IPSec the connection goes down (suspend, wifi disabled,
+which brings the following additional features:
+- MacShrew Taskbar **automatically reconnects** when the IPSec connection goes down (suspend, wifi disabled,
  etc.)
 - tunnel **status** in taskbar
 
-    ![MacShrew in taskbar](http://178.79.191.30/github_linking/MacShrew1.jpg "MacShrew Taskbar")
+   ![MacShrew in taskbar](https://github.com/user-attachments/assets/b95fb3f9-f367-4acd-89ad-1d8abeee59dd)
 
 ## Getting Started
 
-This will guide you through installation of MacShrew taskbar.
+This will guide you through the installation of MacShrew taskbar.
 
 ### Prerequisites
 
@@ -40,14 +40,14 @@ When everything went smoothly:
 
 ## Building
 
-This tools are used for building:
+These tools are used for building:
 
 * [py2app](https://pythonhosted.org/py2app/) - Py2App packaging into standalone app
 * [dmgbuild](https://bitbucket.org/al45tair/dmgbuild/) - Packaging into dmg file
 * [PyCharm](https://www.jetbrains.com/pycharm/) - The best IDE for python
 
-On Sierra and El Capitan system you must _**disable**_ System Integrity Protection if you would like to run py2app,
-otherwise py2app will not create any package.
+On Sierra and El Capitan systems, you must _**disable**_ System Integrity Protection if you would like to run py2app,
+Otherwise, py2app will not create any package.
 
 ### Disable SIP System Integrity Protection
 
@@ -72,6 +72,6 @@ in `dmg/MacShrew.dmg`
 ## License
 
 This project is licensed under the BSD License - see the [LICENSE.md](LICENSE.md) file for details.
-Icons are downloaded from iconfinder.com which are free for commercial and personal use.
+Icons are downloaded from iconfinder.com, which are free for commercial and personal use.
 
 
