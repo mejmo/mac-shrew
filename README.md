@@ -1,3 +1,5 @@
+## Project not maintained anymore
+
 # MacShrew Taskbar
 
 **MacShrew** is a taskbar alternative to _Shrew Soft VPN Access manager_ for macOS systems
